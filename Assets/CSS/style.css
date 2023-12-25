@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --darkpink:#dd127b;
+    --bs-light-rgb: 248,249,250;
+}
+a{
+    text-decoration: none;
+}
+.darkPink{
+    background-color: var(--darkpink);
+}
+.text-darkpink{
+    color: var(--darkpink);
+}
+.text-light{
+    color: var(--bs-light-rgb);
+    opacity: 1;
+}
+/*========================================== navbar section css Start=========================================== */
+.navbar-brand img{
+    transition: 0.2s linear;
+}
+.navbar-brand img:hover{
+transition:0.2s linear ;
+transform:scale(1.05) ;
+}
+.navbar-nav .nav-item .nav-link{ 
+    font-size: 1.2em;
+    font-weight: 400;
+    color: black;
+}
+/*========================================== navbar section css End=========================================== */
+p{
+    font-size: 1rem;
+}
